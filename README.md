@@ -24,7 +24,7 @@ A port not explicitly defined in the YAML configuration file will be set down an
 Run with ryu-manager (uses /etc/opt/faucet/faucet.yaml as configuration by default):
 
 ```
-$ cp valve.yaml-dist valve.yaml
+$ cp faucet.yaml-dist faucet.yaml
 $ $EDITOR valve.yaml
 $ ryu-manager valve.py
 ```
